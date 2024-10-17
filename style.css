@@ -1,0 +1,200 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*------------------------------HOMEPAGE------------------------------------------------*/
+
+.wrapper{
+height: 660 ;
+width: 1190px;
+/*background-color: black;*/
+}
+
+header{
+    height: 100px;
+    width: 1210px;
+    background-color: #10c1e0 ;
+
+}
+section{
+    margin: 0px;
+    height: 750px;
+    width: 1210px;
+    background-color:whitesmoke;
+}
+footer{
+    height: 80px;
+    width: 1210px;
+    background-color: #10c1e0 ;
+}
+.logo{
+    padding-left: 20px;
+    float: left;
+}
+li a{
+    color: blue;
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    
+}
+nav{
+    float: right;
+    word-spacing: 20px;
+    padding: 20px;
+    margin: 0px;
+
+}
+nav li{
+    display: inline-block;
+    line-height: 60px;
+
+
+}
+.navbar a:hover{
+    background-color:rgb(22, 166, 192);
+}
+.footer{
+    text-align: right;
+    
+  
+}
+/*------------------------LOGIN-------------------------------*/
+.box1 {
+    height: 500px;
+    width: 450px;
+    background-color:beige;
+    margin:70px auto;
+    opacity: .6;
+  
+}
+form .login{
+   margin: auto 70px ; 
+}
+input{
+    height: 25px;
+    width: 300px;
+}
+/*-----------------------------REGISTRATION-----------------------------------*/
+.box2 {
+    height: 550px;
+    width: 450px;
+    background-color:beige;
+    margin:70px auto;
+    opacity: .6;
+}
+.Registration{
+    margin: auto 80px;
+}
+
+.image-content {
+padding: 50px;
+padding-right: 20px;
+float: right;
+height: 620px;
+}
+.caption{
+text-align: center;
+padding-left: 100px;
+float: left;
+color: red;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This website is a quasi-experimental website designed by ICT D Neapolis group 3">
+    <meta name="author" content="nad">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png" width="16px" height="16px">
+  
+    <title>Brooks</title>
+
+    
+   
+  
+</head>
+
+<body>
+
+    <div class="wrapper"> 
+        <div class="logo"> 
+        <img src="img/logo.png" alt="Brooks Logo" width="100px" height="100px">
+        </div>
+
+        <header>
+            <nav class="navbar">
+                <Ul>
+                    <li><a href="hatdog.html" style="color: #10c1e0  ;">hatdog</a></li>
+                    <li><a href="index.html"style="font-size: 20px;">Home</a></li>
+                    <li><a href="stulog.html"style="font-size: 20px;">Student-Login</a></li>
+                    <li><a href="aboutus.html" style="font-size: 20px;">About-Us</a></li>
+                    <li><a href="mailto:brooks.online@gmail.com"style="font-size: 20px;" target="_blank">Contact-Us</a></li>
+                    
+                </Ul>
+            </nav>
+        </header> 
+
+        <Section>
+            <div class="image-content image-section" style="width: 800px;">
+                <img class="mySlides" src="/img/sample1.webp" style="width: 50%">
+                <img class="mySlides" src="/img/sample2.webp" style="width: 50%">
+                <img class="mySlides" src="/img/sample3.webp" style="width: 50%">
+                <h1 class="caption">This is only a sample papers 
+                    <br>and belongs to the right owners</h1>
+            </div>
+
+            <Script type="text/javascript">
+                var a = 0
+                carousel();
+
+                function carousel()
+                {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+
+                for(i=0; i <x.length; i++){
+                    x[i].style.display="none";
+                }
+
+                a++;
+                if(a>x.length) {a=1}
+                x[a-1].style.display="block"
+                setTimeout(carousel,5000); 
+
+                }
+
+
+            </Script>
+
+        </Section>
+        <footer>
+            <p class= "footer" style="color: blue; text-align:center;  padding: 15px; ">
+                <br>
+                
+                Made By Group3 From ICT D Neapolis
+                <br>
+                &lt;&lt;&copy;Nad&copy;&gt;&gt;
+            </p>
+        </footer>
+
+
+    </div>
+</body>
+</html>
